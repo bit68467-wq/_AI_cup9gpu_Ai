@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>CUP9GPU</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.hardware.css" />
+  <script>
+    // simple import map for possible future esm.sh usage (kept minimal)
+    window.importMap = {
+      "imports": {}
+    };
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Websim is available in the environment as window.websim / websocket gateway -->
+  <script src="utils.js"></script>
+  <script src="hardware.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

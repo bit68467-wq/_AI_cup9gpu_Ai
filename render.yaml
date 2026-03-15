@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cup9gpu-static
+    env: static
+    plan: free
+    buildCommand: ""
+    staticPublishPath: /
+    region: oregon
+    branch: main
